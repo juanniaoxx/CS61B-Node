@@ -67,3 +67,19 @@ int h = 6=5 + "horse" ; (error) //stirng 类型是不可以被强制类型转换
 /*System.out.println(5 + "10") what is ?*/
 System.out.println(5 + "10");//15 or 510?
 ```
+
+> 在Java中定义函数
+
+```java
+public class LargerDemo{
+	public static int larger(int x , int y){
+		if (x > y ){
+			return x;
+		}
+		return y;
+	}
+	public static void main(String[] args){
+		System.out.println(larger(8,10));
+	}
+}
+```
